@@ -1,0 +1,23 @@
+.weather-cards-container {
+  margin: 05vh 5vw;
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+}
+
+.weather-card {
+  margin: 20px;
+  background-color: #2b2bc0;
+  box-shadow: 4px 5px 8px #444444;
+  padding: 10px;
+  color: violet;
+  width: 10vw;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Courier New, monospace;
+}
+body {
+  background-color: turquoise;
+}
